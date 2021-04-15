@@ -1,0 +1,4 @@
+StepDefinitions\TestRunner.class
+StepDefinitions\LoginSteps.class
+StepDefinitions\TestProjectLogin.class
+StepDefinitions\GoogleSearchSteps.class

@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-17T05:02:09.151Z",
+        "line": 3,
+        "name": "Check the Test project login page is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-the-test-project-login-page-is-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5259703100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser page is open",
+            "match": {
+              "location": "TestProjectLogin.browser_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2646254400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "TestProjectLogin.user_is_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3207641000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the valid username and password",
+            "match": {
+              "location": "TestProjectLogin.user_enters_the_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75535600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks login page",
+            "match": {
+              "location": "TestProjectLogin.user_clicks_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4271775900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "TestProjectLogin.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login Functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TestProjectLoginDemo.feature",
+    "tags": []
+  }
+]
