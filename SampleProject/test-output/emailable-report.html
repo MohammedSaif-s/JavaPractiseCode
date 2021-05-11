@@ -8,39 +8,44 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">TestNG Test Automation suite</th></tr>
-<tr><td><a href="#t0">Different testng Feature Test</a></td><td class="num">23</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">47,296</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">67</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Test Automation suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Different testng Feature Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.testng.ExceptionTimeoutTest</td><td><a href="#m0">test1</a></td><td rowspan="1">1618398018693</td><td rowspan="1">11</td></tr><tr class="passedodd"><td rowspan="6">com.testng.GoogleTest</td><td><a href="#m1">googleLogoTest</a></td><td rowspan="1">1618398042672</td><td rowspan="1">66</td></tr><tr class="passedodd"><td><a href="#m2">googleSigninTest</a></td><td rowspan="1">1618398037150</td><td rowspan="1">75</td></tr><tr class="passedodd"><td><a href="#m3">googleTitleTest</a></td><td rowspan="1">1618398025688</td><td rowspan="1">13</td></tr><tr class="passedodd"><td><a href="#m4">mailLinkTest</a></td><td rowspan="1">1618398031011</td><td rowspan="1">99</td></tr><tr class="passedodd"><td><a href="#m5">test1</a></td><td rowspan="1">1618398048122</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m6">test2</a></td><td rowspan="1">1618398053581</td><td rowspan="1">2</td></tr><tr class="passedeven"><td rowspan="2">com.testng.GoogleTitleTest</td><td><a href="#m7">googleLogoTest</a></td><td rowspan="1">1618398064940</td><td rowspan="1">60</td></tr><tr class="passedeven"><td><a href="#m8">googleTitleTest</a></td><td rowspan="1">1618398059333</td><td rowspan="1">24</td></tr><tr class="passedodd"><td rowspan="10">com.testng.InvocationCountTest</td><td><a href="#m9">sum</a></td><td rowspan="10">1618398065860</td><td rowspan="10">1</td></tr><tr class="passedodd"><td><a href="#m10">sum</a></td></tr><tr class="passedodd"><td><a href="#m11">sum</a></td></tr><tr class="passedodd"><td><a href="#m12">sum</a></td></tr><tr class="passedodd"><td><a href="#m13">sum</a></td></tr><tr class="passedodd"><td><a href="#m14">sum</a></td></tr><tr class="passedodd"><td><a href="#m15">sum</a></td></tr><tr class="passedodd"><td><a href="#m16">sum</a></td></tr><tr class="passedodd"><td><a href="#m17">sum</a></td></tr><tr class="passedodd"><td><a href="#m18">sum</a></td></tr><tr class="passedeven"><td rowspan="1">com.testng.TestNGBasics</td><td><a href="#m19">googleTitleTest</a></td><td rowspan="1">1618398065884</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="3">com.testng.TestNGFeatures</td><td><a href="#m20">homePageTest</a></td><td rowspan="1">1618398065901</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m21">loginTest</a></td><td rowspan="1">1618398065890</td><td rowspan="1">5</td></tr><tr class="passedodd"><td><a href="#m22">regPageTest</a></td><td rowspan="1">1618398065904</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.testng.ExceptionTimeoutTest</td><td><a href="#m0">test1</a></td><td rowspan="1">1620287900842</td><td rowspan="1">13</td></tr></tbody>
 </table>
-<h2>Different testng Feature Test</h2><h3 id="m0">com.testng.ExceptionTimeoutTest#test1</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;100A&quot;
+<h2>Default test</h2><h3 id="m0">com.testng.ExceptionTimeoutTest#test1</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;100A&quot;
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
 	at java.base/java.lang.Integer.parseInt(Integer.java:770)
 	at com.testng.ExceptionTimeoutTest.test1(ExceptionTimeoutTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.testng.GoogleTest#googleLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.testng.GoogleTest#googleSigninTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.testng.GoogleTest#googleTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.testng.GoogleTest#mailLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.testng.GoogleTest#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.testng.GoogleTest#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.testng.GoogleTitleTest#googleLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.testng.GoogleTitleTest#googleTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m18">com.testng.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m19">com.testng.TestNGBasics#googleTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">com.testng.TestNGFeatures#homePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">com.testng.TestNGFeatures#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m22">com.testng.TestNGFeatures#regPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

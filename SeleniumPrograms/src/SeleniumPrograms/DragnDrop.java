@@ -26,8 +26,7 @@ public class DragnDrop
 		.moveToElement(driver.findElement(By.xpath("//*[@id='droppable']")))
 		.release()
 		.build()
-		.perform();
-				
+		.perform();				
 		driver.quit();
 	}
 }

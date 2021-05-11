@@ -11,7 +11,7 @@ public class TestGoogle
 {
 	public static void main(String[] args) 
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\m.saif.sanaguppam\\Desktop\\Azure\\SAIF\\Java Notes\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\m.saif.sanaguppam\\Desktop\\Azure\\SAIF\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		/*DesiredCapabilities cap = new DesiredCapabilities();
@@ -26,7 +26,7 @@ public class TestGoogle
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
-		driver.get("https://google.com");
+		driver.get("http://google.com");
 		String title = driver.getTitle();	//returning string
 		System.out.println(title);
 		

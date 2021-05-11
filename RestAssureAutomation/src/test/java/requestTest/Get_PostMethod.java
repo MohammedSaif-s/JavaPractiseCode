@@ -53,7 +53,7 @@ public class Get_PostMethod
 		
 //		System.out.println(map);
 		
-		JSONObject request = new JSONObject();		
+		JSONObject request = new JSONObject();	// represents an immutable object value (an unordered collection of zero or more name/ pair values).	
 		request.put("name", "SAIF");
 		request.put("job", "Tester");
 		System.out.println(request.toJSONString());
