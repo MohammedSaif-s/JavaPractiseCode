@@ -23,6 +23,8 @@ public class ReverseString
 		// 2. Using StringBuffer class, and it is muteable. StringBuffer class has inbuilt function called reverse
 //		StringBuffer buffer = new StringBuffer(str);
 //		System.out.println(buffer.reverse());
-		System.out.println(new StringBuffer(str).reverse());
+		String st1 = "SAIF";
+//		System.out.println(new StringBuffer(str).reverse());
+		System.out.println(new StringBuffer(String.valueOf(st1)).reverse());
 	}
 }

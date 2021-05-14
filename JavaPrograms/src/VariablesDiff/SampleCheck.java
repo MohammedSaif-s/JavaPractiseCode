@@ -7,7 +7,7 @@ public class SampleCheck
 {
 	public static void main(String[] args) throws Exception 
 	{
-		Scanner takeInput = new Scanner(System.in);
+		Scanner takeInput = new Scanner(System.in); // Scanner is a class which can parse primitive types and Strings using regular expressions
 		int testCase = 0; 
 		testCase = takeInput.nextInt();
 		takeInput.nextLine();

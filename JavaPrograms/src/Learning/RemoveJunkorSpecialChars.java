@@ -14,8 +14,8 @@ public class RemoveJunkorSpecialChars
 		str = str.replaceAll("[^a-zA-Z0-9]", "");
 		System.out.println(str);
 		
-//		String str1 = " Learning Selenium WebDriver With Java ";
-//		str1 = str1.replaceAll("\\s+", "");
-//		System.out.println(str1);
+		String str1 = " Learning Selenium WebDriver With Java ";
+		str1 = str1.replaceAll("\\s+", "");
+		System.out.println(str1);
 	}
 }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TestMethod 
 {
-	/*
+	
 	public static void fibonacciSeries(int num1, int num2, int total)
 	{
 		for (int i=1; i<=total; i++)
@@ -24,7 +24,7 @@ public class TestMethod
 		int total = scan.nextInt();
 		
 		fibonacciSeries(num1, num2, total);
-	}*/
+	}
 	
 	/*
 	public static void main (String args[])
@@ -93,33 +93,33 @@ public class TestMethod
 			System.out.println("Is not an Armstrong Number");
 	}*/
 	
-	public static void main (String [] args)
-	{
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter the number: ");
-		int num = scan.nextInt();
-		
-		isPalindrome(num);
-	}
-	
-	public static void isPalindrome(int num)
-	{
-		System.out.println("Given number is : " +num);
-		
-		int r;
-		int sum=0;
-		int temp;
-		temp = num;
-		
-		while (num >0)
-		{
-			r = num % 10;
-			sum = (sum * 10) + r; 
-			num = num / 10;
-		}
-		if (temp == sum)
-			System.out.println("It is a Plaindrome number");
-		else
-			System.out.println("It is not a Palindrome number");
-	}
+//	public static void main (String [] args)
+//	{
+//		Scanner scan = new Scanner(System.in);
+//		System.out.println("Enter the number: ");
+//		int num = scan.nextInt();
+//		
+//		isPalindrome(num);
+//	}
+//	
+//	public static void isPalindrome(int num)
+//	{
+//		System.out.println("Given number is : " +num);
+//		
+//		int r;
+//		int sum=0;
+//		int temp;
+//		temp = num;
+//		
+//		while (num >0)
+//		{
+//			r = num % 10;
+//			sum = (sum * 10) + r; 
+//			num = num / 10;
+//		}
+//		if (temp == sum)
+//			System.out.println("It is a Plaindrome number");
+//		else
+//			System.out.println("It is not a Palindrome number");
+//	}
 }

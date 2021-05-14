@@ -28,7 +28,7 @@ public class AmazonApp_Test
 	@Test(priority = 1, groups="Test")
 	public void amazonLogoTest()
 	{
-		boolean a = driver.findElement(By.xpath("//a[contains(@id,'nav-logo-sprites')]")).isDisplayed();
+		boolean a = driver.findElement(By.xpath("//a[contains(@id,'nav-logo-sprite')]")).isDisplayed();
 		System.out.println(a);
 		//Assert.assertEquals(a, true);
 		Assert.assertTrue(a);
