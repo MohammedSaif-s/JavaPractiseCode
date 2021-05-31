@@ -6,7 +6,7 @@ public class CheckTest
 {
 	public static void main(String[] args) 
 	{
-		String inputList[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+		String inputList[] = {"Jan", "Feb", "Mar", "Apr", "May", "JUN", "Jul", "Aug", "SEP", "Oct", "Nov", "Dec"};
 		System.out.println("***** Input List *********");
 		showList(inputList);
 		

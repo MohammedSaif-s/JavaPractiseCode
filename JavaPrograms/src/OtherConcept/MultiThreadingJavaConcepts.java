@@ -5,7 +5,7 @@ package OtherConcept;
 //because Java doesn’t support multiple inheritance.
 //But, if we implement the Runnable interface, our class can still extend other base classes.
 
-class MultiThreadingDemo extends Thread // implements Runnable
+class MultiThreadingDemo implements Runnable //extends Thread // 
 {
 	public void run ()
 	{

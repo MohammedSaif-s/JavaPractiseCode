@@ -11,8 +11,7 @@ import org.testng.annotations.Test;
 
 public class GoogleTest 
 {
-	WebDriver driver;
-	
+	WebDriver driver;	
 	// pre conditions
 	@BeforeMethod
 	public void setUp()

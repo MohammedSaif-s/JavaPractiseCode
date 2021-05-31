@@ -1,243 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-12T11:57:51 IST" name="TestNG Test Application Automation suite" finished-at="2021-05-12T12:00:52 IST" duration-ms="181283">
+  <suite started-at="2021-05-28T23:09:58 IST" name="Default suite" finished-at="2021-05-28T23:09:59 IST" duration-ms="86">
     <groups>
-      <group name="Test">
-        <method signature="AmazonApp_Test.amazonLogoTest()[pri:1, instance:testCode.AmazonApp_Test@76f2bbc1]" name="amazonLogoTest" class="testCode.AmazonApp_Test"/>
-        <method signature="AmazonApp_Test.testAddress()[pri:3, instance:testCode.AmazonApp_Test@76f2bbc1]" name="testAddress" class="testCode.AmazonApp_Test"/>
-        <method signature="AmazonApp_Test.titleTest()[pri:2, instance:testCode.AmazonApp_Test@76f2bbc1]" name="titleTest" class="testCode.AmazonApp_Test"/>
-        <method signature="FlipkartApp_Test.getTitle()[pri:2, instance:testCode.FlipkartApp_Test@68e965f5]" name="getTitle" class="testCode.FlipkartApp_Test"/>
-        <method signature="FlipkartApp_Test.logoTest()[pri:1, instance:testCode.FlipkartApp_Test@68e965f5]" name="logoTest" class="testCode.FlipkartApp_Test"/>
-        <method signature="TestBase.amazonLogoTest()[pri:1, instance:testCode.TestBase@6f27a732]" name="amazonLogoTest" class="testCode.TestBase"/>
-        <method signature="TestBase.testAddress()[pri:3, instance:testCode.TestBase@6f27a732]" name="testAddress" class="testCode.TestBase"/>
-        <method signature="TestBase.titleTest()[pri:2, instance:testCode.TestBase@6f27a732]" name="titleTest" class="testCode.TestBase"/>
-      </group> <!-- Test -->
     </groups>
-    <test started-at="2021-05-12T11:57:51 IST" name="Different testng Feature Test" finished-at="2021-05-12T12:00:52 IST" duration-ms="181283">
-      <class name="testCode.AmazonApp_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:57:51 IST" name="setUp" finished-at="2021-05-12T11:58:06 IST" duration-ms="14978" status="PASS">
+    <test started-at="2021-05-28T23:09:58 IST" name="Default test" finished-at="2021-05-28T23:09:59 IST" duration-ms="86">
+      <class name="testCode.PriorityTest">
+        <test-method signature="sampleTest3()[pri:-1, instance:testCode.PriorityTest@f2ff811]" started-at="2021-05-28T23:09:59 IST" name="sampleTest3" finished-at="2021-05-28T23:09:59 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="amazonLogoTest()[pri:1, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:06 IST" name="amazonLogoTest" finished-at="2021-05-12T11:58:06 IST" duration-ms="161" status="PASS">
+        </test-method> <!-- sampleTest3 -->
+        <test-method signature="sampleTest1()[pri:0, instance:testCode.PriorityTest@f2ff811]" started-at="2021-05-28T23:09:59 IST" name="sampleTest1" finished-at="2021-05-28T23:09:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:06 IST" name="tearDown" finished-at="2021-05-12T11:58:07 IST" duration-ms="977" status="PASS">
+        </test-method> <!-- sampleTest1 -->
+        <test-method signature="sampleTest2()[pri:0, instance:testCode.PriorityTest@f2ff811]" started-at="2021-05-28T23:09:59 IST" name="sampleTest2" finished-at="2021-05-28T23:09:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:07 IST" name="setUp" finished-at="2021-05-12T11:58:15 IST" duration-ms="8109" status="PASS">
+        </test-method> <!-- sampleTest2 -->
+        <test-method signature="sampleTest4()[pri:1, instance:testCode.PriorityTest@f2ff811]" started-at="2021-05-28T23:09:59 IST" name="sampleTest4" finished-at="2021-05-28T23:09:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="titleTest()[pri:2, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:15 IST" name="titleTest" finished-at="2021-05-12T11:58:15 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:15 IST" name="tearDown" finished-at="2021-05-12T11:58:16 IST" duration-ms="1049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:16 IST" name="setUp" finished-at="2021-05-12T11:58:23 IST" duration-ms="6816" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testAddress()[pri:3, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:23 IST" name="testAddress" finished-at="2021-05-12T11:58:23 IST" duration-ms="151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:23 IST" name="tearDown" finished-at="2021-05-12T11:58:24 IST" duration-ms="934" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:24 IST" name="setUp" finished-at="2021-05-12T11:58:36 IST" duration-ms="11987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:4, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:36 IST" name="sampleTest" finished-at="2021-05-12T11:58:36 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:36 IST" name="tearDown" finished-at="2021-05-12T11:58:37 IST" duration-ms="892" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:37 IST" name="setUp" finished-at="2021-05-12T11:58:51 IST" duration-ms="14544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:4, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:51 IST" name="sampleTest" finished-at="2021-05-12T11:58:51 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:51 IST" name="tearDown" finished-at="2021-05-12T11:58:52 IST" duration-ms="855" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:58:52 IST" name="setUp" finished-at="2021-05-12T11:59:02 IST" duration-ms="10295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:4, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:59:02 IST" name="sampleTest" finished-at="2021-05-12T11:59:02 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:59:02 IST" name="tearDown" finished-at="2021-05-12T11:59:03 IST" duration-ms="982" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:59:03 IST" name="setUp" finished-at="2021-05-12T11:59:18 IST" duration-ms="14116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:4, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:59:18 IST" name="sampleTest" finished-at="2021-05-12T11:59:18 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.AmazonApp_Test@76f2bbc1]" started-at="2021-05-12T11:59:18 IST" name="tearDown" finished-at="2021-05-12T11:59:18 IST" duration-ms="847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCode.AmazonApp_Test -->
-      <class name="testCode.TestBase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T11:59:47 IST" name="setUp" finished-at="2021-05-12T11:59:55 IST" duration-ms="8327" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="amazonLogoTest()[pri:1, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T11:59:55 IST" name="amazonLogoTest" finished-at="2021-05-12T11:59:56 IST" duration-ms="102" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amazonLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T11:59:56 IST" name="tearDown" finished-at="2021-05-12T11:59:56 IST" duration-ms="805" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T11:59:56 IST" name="setUp" finished-at="2021-05-12T12:00:03 IST" duration-ms="7032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="titleTest()[pri:2, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:03 IST" name="titleTest" finished-at="2021-05-12T12:00:04 IST" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:04 IST" name="tearDown" finished-at="2021-05-12T12:00:04 IST" duration-ms="970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:04 IST" name="setUp" finished-at="2021-05-12T12:00:17 IST" duration-ms="12344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testAddress()[pri:3, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:17 IST" name="testAddress" finished-at="2021-05-12T12:00:17 IST" duration-ms="151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:17 IST" name="tearDown" finished-at="2021-05-12T12:00:18 IST" duration-ms="973" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:18 IST" name="setUp" finished-at="2021-05-12T12:00:25 IST" duration-ms="6826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:4, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:25 IST" name="sampleTest" finished-at="2021-05-12T12:00:25 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:25 IST" name="tearDown" finished-at="2021-05-12T12:00:26 IST" duration-ms="836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:26 IST" name="setUp" finished-at="2021-05-12T12:00:34 IST" duration-ms="8379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:4, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:34 IST" name="sampleTest" finished-at="2021-05-12T12:00:34 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:34 IST" name="tearDown" finished-at="2021-05-12T12:00:35 IST" duration-ms="1221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:35 IST" name="setUp" finished-at="2021-05-12T12:00:44 IST" duration-ms="8375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:4, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:44 IST" name="sampleTest" finished-at="2021-05-12T12:00:44 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:44 IST" name="tearDown" finished-at="2021-05-12T12:00:45 IST" duration-ms="1203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:45 IST" name="setUp" finished-at="2021-05-12T12:00:51 IST" duration-ms="6119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:4, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:51 IST" name="sampleTest" finished-at="2021-05-12T12:00:51 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.TestBase@6f27a732]" started-at="2021-05-12T12:00:51 IST" name="tearDown" finished-at="2021-05-12T12:00:52 IST" duration-ms="952" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCode.TestBase -->
-      <class name="testCode.FlipkartApp_Test">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testCode.FlipkartApp_Test@68e965f5]" started-at="2021-05-12T11:59:18 IST" name="setUp" finished-at="2021-05-12T11:59:27 IST" duration-ms="8621" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mohammedsaif5496@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Saif5496@]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="logoTest()[pri:1, instance:testCode.FlipkartApp_Test@68e965f5]" started-at="2021-05-12T11:59:27 IST" name="logoTest" finished-at="2021-05-12T11:59:27 IST" duration-ms="64" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.FlipkartApp_Test@68e965f5]" started-at="2021-05-12T11:59:27 IST" name="tearDown" finished-at="2021-05-12T11:59:33 IST" duration-ms="5959" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testCode.FlipkartApp_Test@68e965f5]" started-at="2021-05-12T11:59:33 IST" name="setUp" finished-at="2021-05-12T11:59:41 IST" duration-ms="7918" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mohammedsaif5496@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Saif5496@]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getTitle()[pri:2, instance:testCode.FlipkartApp_Test@68e965f5]" started-at="2021-05-12T11:59:41 IST" name="getTitle" finished-at="2021-05-12T11:59:41 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCode.FlipkartApp_Test@68e965f5]" started-at="2021-05-12T11:59:41 IST" name="tearDown" finished-at="2021-05-12T11:59:47 IST" duration-ms="6172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCode.FlipkartApp_Test -->
-    </test> <!-- Different testng Feature Test -->
-  </suite> <!-- TestNG Test Application Automation suite -->
+        </test-method> <!-- sampleTest4 -->
+      </class> <!-- testCode.PriorityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

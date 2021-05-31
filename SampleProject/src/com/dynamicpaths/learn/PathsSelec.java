@@ -10,8 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class PathsSelec
 {
 	public static void main(String[] args) throws InterruptedException 
-	{
-		
+	{		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\m.saif.sanaguppam\\Desktop\\Azure\\SAIF\\Java Notes\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 				

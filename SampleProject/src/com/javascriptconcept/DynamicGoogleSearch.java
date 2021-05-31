@@ -16,8 +16,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 //quest - How to perform Dynamic Search by using Dynamic xPath in Google
 public class DynamicGoogleSearch
 {
-	static WebDriver driver;
-	
+	static WebDriver driver;	
 	public static void main(String[] args) throws IOException, InterruptedException 
 	{
 		Properties prop = new Properties();

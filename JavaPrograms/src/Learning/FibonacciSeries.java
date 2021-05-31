@@ -23,7 +23,9 @@ public class FibonacciSeries
 		
 		
 		// ArrayList
-		int n =5;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number: ");
+		int n = scan.nextInt();
 		ArrayList<Integer> arrList = new ArrayList<Integer>(n);
 		for (int i=1; i<=n; i++)
 			arrList.add(i);		

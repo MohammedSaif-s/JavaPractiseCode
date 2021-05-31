@@ -28,7 +28,7 @@ public class FindDupEleinArr
 //		Set<String> storeSet = new HashSet<String>();
 //		for (String name : names)
 //		{
-//			if (storeSet.add(name)== false)
+//			if (storeSet.add(name) == false)
 //				System.out.println("Duplicate Element : " + name);
 //		}
 		

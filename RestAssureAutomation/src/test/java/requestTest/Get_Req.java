@@ -35,5 +35,4 @@ public class Get_Req
 			body("data[1].id", equalTo(8)).
 			log().all(); // log the response
 	}
-
 }

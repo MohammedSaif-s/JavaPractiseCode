@@ -24,7 +24,6 @@ public class ReverseString
 //		StringBuffer buffer = new StringBuffer(str);
 //		System.out.println(buffer.reverse());
 		String st1 = "SAIF";
-//		System.out.println(new StringBuffer(str).reverse());
-		System.out.println(new StringBuffer(String.valueOf(st1)).reverse());
+		System.out.println(new StringBuffer(st1).reverse());		
 	}
 }

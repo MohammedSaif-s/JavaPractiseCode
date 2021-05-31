@@ -25,8 +25,8 @@ public class CheckMousehover
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.cssSelector("body > nav > div.dropdown.dropdown_category_list > a"))).build().perform();

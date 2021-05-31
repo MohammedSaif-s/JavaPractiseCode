@@ -5,14 +5,12 @@ import java.util.Scanner;
 public class Test_Now 
 {
 	public static void main (String[] args)
-	{
-		
+	{		
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int num = scn.nextInt();
 		cnvrtDeci(num);
 		
-
 //		Scanner scn = new Scanner(System.in);
 //		System.out.println("Enter the number for x and y: ");
 //		int x = scn.nextInt();

@@ -12,8 +12,7 @@ import org.testng.annotations.Test;
 
 public class GoogleTitleTest
 {
-	WebDriver driver;
-	
+	WebDriver driver;	
 	@BeforeMethod
 	public void setUp()
 	{

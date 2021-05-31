@@ -30,16 +30,20 @@ public class ExplicitWait
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		driver.get("https://www.amazon.in/");
-		clickOn(driver, driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")),10);		
+//		clickOn(driver, driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")),10);
+		
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='nav-search-submit-button']")));
+		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
 		driver.quit();
 	}
 	
-	public static void clickOn(WebDriver driver, WebElement locator, int timeout) 
-	{
-		new WebDriverWait(driver, timeout)
-			.ignoring(StaleElementReferenceException.class)
-			.until(ExpectedConditions
-					.elementToBeClickable(locator));
-		locator.click();
-	}	
+//	public static void clickOn(WebDriver driver, WebElement locator, int timeout) 
+//	{
+//		new WebDriverWait(driver, timeout)
+//			.ignoring(StaleElementReferenceException.class)
+//			.until(ExpectedConditions
+//					.elementToBeClickable(locator));
+//		locator.click();
+//	}	
 }

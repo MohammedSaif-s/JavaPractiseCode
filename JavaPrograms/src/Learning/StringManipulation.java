@@ -1,5 +1,7 @@
 package Learning;
 
+import java.util.Arrays;
+
 public class StringManipulation	// Manipulating the strings
 {
 	public static void main(String[] args) 
@@ -16,7 +18,7 @@ public class StringManipulation	// Manipulating the strings
 		System.out.println(str.indexOf("Hello"));
 		
 		// String Comparison
-		System.out.println(str.equals(str1));
+		System.out.println(str.equals(str1)); // equals() method should be used for content comparison, == sign checks if both references points to the same location or not
 		System.out.println(str.equalsIgnoreCase(str1));
 		
 		// Sub string
@@ -49,6 +51,10 @@ public class StringManipulation	// Manipulating the strings
 		int b = 200;
 		System.out.println(st1 + st2 + a + b);
 		System.out.println(a + b + st1 + st2);
-		System.out.println(st1 +st2 +(a+b));
+		System.out.println(st1 +st2 +(a+b));		
+		
+		String vowels = "a::e::i::o:e";
+		String[] result = vowels.split("::"); 
+		System.out.println("result = " + Arrays.toString(result));
 	}
 }

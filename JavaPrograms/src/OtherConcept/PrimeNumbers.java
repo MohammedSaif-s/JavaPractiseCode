@@ -6,9 +6,9 @@ public class PrimeNumbers
 {
 	public static boolean isPrimeNumber(int num)
 	{
-		if (num<=1)
+		if (num <= 1)
 			return false;
-		for (int i=2; i<num; i++)
+		for (int i=2; i < num; i++)
 		{
 			if (num % i == 0)
 				return false;
@@ -30,7 +30,7 @@ public class PrimeNumbers
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Enter the number: ");
 		int num = scan.nextInt();
-		System.out.println("Given number is: " + num + " , and it is "  +isPrimeNumber(num));
+		System.out.println("Given number is: " + num + " , and it is " + isPrimeNumber(num));
 		
 		System.out.println("Enter how many number: ");
 		int num1 = scan.nextInt();

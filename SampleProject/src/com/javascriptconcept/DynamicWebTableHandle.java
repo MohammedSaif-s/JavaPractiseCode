@@ -17,8 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class DynamicWebTableHandle
 {
-	static WebDriver driver;
-	
+	static WebDriver driver;	
 	public static void main(String[] args) throws InterruptedException, IOException 
 	{
 		Properties prop = new Properties();

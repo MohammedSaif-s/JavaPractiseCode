@@ -22,7 +22,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class JavaExecutorConcept 
 {
 	static WebDriver driver;
-	static JavascriptExecutor js;
+	static JavascriptExecutor js; // JavaScriptExecutor is an Interface that helps to execute JavaScript through Selenium Webdriver
 	
 	public static void main(String[] args) throws IOException, InterruptedException 
 	{

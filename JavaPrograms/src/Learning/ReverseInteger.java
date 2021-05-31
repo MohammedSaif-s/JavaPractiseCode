@@ -20,8 +20,6 @@ public class ReverseInteger
 		
 		// 2. Using String Buffer
 		long num1 = 6456837439358436587L;
-		System.out.println(new StringBuffer(String.valueOf(num1)).reverse());
-		
+		System.out.println(new StringBuffer(String.valueOf(num1)).reverse());		
 	}
-
 }

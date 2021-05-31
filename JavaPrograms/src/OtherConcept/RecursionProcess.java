@@ -19,6 +19,6 @@ public class RecursionProcess
 		 System.out.println("Enter the number: ");
 		 int number = scan.nextInt();
 		 fact = factorial(number);   
-		 System.out.println("Factorial of "+number+" is: "+fact);    
+		 System.out.println("Factorial of " + number + " is: " + fact);    
 	 }  
 }

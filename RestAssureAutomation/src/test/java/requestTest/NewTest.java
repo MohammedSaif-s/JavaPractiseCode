@@ -35,8 +35,15 @@ public class NewTest
 	  System.out.println(req.toJSONString());
 	  
 	  baseURI = "http://localhost:3000";
-	  given().header("Content-Type", "application/JSON").contentType(ContentType.JSON).accept(ContentType.JSON).body(req.toJSONString()).
-	  when().post("/Students").then().statusCode(201).log().all();
-	  
+	  given().
+	  	header("Content-Type", "application/JSON").
+	  	contentType(ContentType.JSON).
+	  	accept(ContentType.JSON).
+	  	body(req.toJSONString()).
+	  when().
+	  	post("/Students").
+	  		then().
+	  		statusCode(201).
+	  		log().all();
   }
 }
