@@ -33,6 +33,6 @@ public class Get_Req
 		then().
 			statusCode(200).
 			body("data[1].id", equalTo(8)).
-			log().all(); // log the response
+			log().all();  // log the response
 	}
 }

@@ -12,8 +12,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 
 public class NewTest
-{
-	
+{	
   @Test
   public void getTest() 
   {
