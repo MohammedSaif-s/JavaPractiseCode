@@ -44,7 +44,7 @@ public class SelectorTest
 		driver.findElement(By.id("ap_password")).sendKeys("jkfgjfhjgh");
 		driver.findElement(By.className("a-button-input")).click();	// priority 4th 
 		driver.findElement(By.linkText("Sign in")).click();	//only for links
-		Thread.sleep(2500);
+		Thread.sleep(5000);
 		driver.close();
 	}
 }
