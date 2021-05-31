@@ -7,8 +7,7 @@ public class FibonacciSeries
 {
 	public static void main(String[] args) 
 	{
-		// Fibonacci Series
-		
+		// Fibonacci Series		
 //		int num1=0, num2=1, total=10;
 //		System.out.println("Fibonacci of total numbers looking are : " +total);
 //		
