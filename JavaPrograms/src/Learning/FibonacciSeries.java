@@ -20,7 +20,6 @@ public class FibonacciSeries
 //			num2 = sumOfPrevNums;
 //		}
 		
-		
 		// ArrayList
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the number: ");
@@ -28,14 +27,17 @@ public class FibonacciSeries
 		ArrayList<Integer> arrList = new ArrayList<Integer>(n);
 		for (int i=1; i<=n; i++)
 			arrList.add(i);		
-		System.out.println(arrList);
-		
+		System.out.println(arrList);		
 		arrList.remove(3);
-		System.out.println(arrList);
-		
+		System.out.println(arrList);		
 		for (int i=0; i<arrList.size(); i++)
 		{
 			System.out.print(arrList.get(i) + " ");
 		}	
+		
+		// removing vowel char from the given string
+		String str = "Grid";
+		str = str.replaceAll("[aeiouAEIOU]", "");
+		System.out.println("After removing vowel char from the given String: " + str);
 	}
 }

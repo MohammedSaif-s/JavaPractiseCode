@@ -23,7 +23,6 @@ public class CheckTest
 	{
 		for (String str : inputList)
 			System.out.print(str + " ");
-		System.out.println();
-		
+		System.out.println();		
 	}
 }

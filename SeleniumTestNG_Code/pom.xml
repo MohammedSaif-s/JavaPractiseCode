@@ -21,6 +21,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.4.3</version>
+			<scope>test</scope>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -39,7 +45,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>C:\Users\m.saif.sanaguppam\git\Selenium_TestNGCode\SeleniumTestNG_Code\testng.xml</suiteXmlFile>
-					</suiteXmlFiles>					
+					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>

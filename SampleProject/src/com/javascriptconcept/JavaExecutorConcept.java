@@ -43,8 +43,7 @@ public class JavaExecutorConcept
 		if(browser.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\m.saif.sanaguppam\\Desktop\\Azure\\SAIF\\Java Notes\\chromedriver_win32\\chromedriver.exe");
-			driver = new ChromeDriver();
-			
+			driver = new ChromeDriver();			
 		}
 		
 		else if (browser.equals("ie"))

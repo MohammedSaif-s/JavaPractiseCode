@@ -47,7 +47,7 @@ public class ElementVisibilityTest
 		System.out.println(bool3);*/
 		
 		// isSelected - for radio button
-		boolean bool4 =driver.findElement(By.xpath("//label[contains(text(),'Male')]")).isSelected();
+		boolean bool4 = driver.findElement(By.xpath("//label[contains(text(),'Male')]")).isSelected();
 		System.out.println(bool4);
 		driver.quit();	
 	}

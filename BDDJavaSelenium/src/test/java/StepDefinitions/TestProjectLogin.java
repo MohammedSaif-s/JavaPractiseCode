@@ -26,7 +26,6 @@ public class TestProjectLogin
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
 	}
 
 	@And("user is on the login page")

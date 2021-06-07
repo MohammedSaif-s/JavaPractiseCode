@@ -37,10 +37,9 @@ public class TestGoogle
 		else
 		{
 			System.out.println("In-Correct");
-		}
-		
+		}		
 		System.out.println(driver.getCurrentUrl());
 		//System.out.println(driver.getPageSource());
-		driver.close();
+		driver.quit();
 	}
 }

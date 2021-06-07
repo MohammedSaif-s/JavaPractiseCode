@@ -45,6 +45,6 @@ public class SelectorTest
 		driver.findElement(By.className("a-button-input")).click();	// priority 4th 
 		driver.findElement(By.linkText("Sign in")).click();	//only for links
 		Thread.sleep(5000);
-		driver.close();
+		driver.quit();
 	}
 }

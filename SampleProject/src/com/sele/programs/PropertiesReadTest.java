@@ -14,8 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class PropertiesReadTest 
 {
-	static WebDriver driver;
-	
+	static WebDriver driver;	
 	public static void main(String[] args) throws IOException, InterruptedException 
 	{
 		Properties prop = new Properties();	//is a java concept
